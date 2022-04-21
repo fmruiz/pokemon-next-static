@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import { Layout } from "../components/layout";
 import { pokeApi } from "../api";
 import { Pokemons, Result } from "../interfaces/pokemon-list";
-import { Card, Grid, Row, Text } from "@nextui-org/react";
+import {  Grid } from "@nextui-org/react";
 import { PokemonCard } from "../components/pokemon/PokemonCard";
 
 interface Props {
